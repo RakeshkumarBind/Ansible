@@ -27,9 +27,9 @@ Advantages : Agentless : If you have hundreds of servers or system ypu dont need
 # Modules : small progran to do a task 
                               ping
                               file
-                              service
-                              copy
-                              yum
+                              service : state ---> present , absent
+                              copy --------->src , dest
+                              yum ----------->
                               shell
                               cron
                               user
